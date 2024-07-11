@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+int main()
+{
+	char *arr[10]= {"--x","x++","x++"};
+	int i,x=0;
+	int len=2;
+	for(i=0;i<=len;i++)
+	{
+	   if(arr[i]=="--x")
+	   {
+	   	--x;
+	   }
+	   else 
+	   {
+	          x++;	
+	   }	
+	}
+	printf("%d",x);	
+}
